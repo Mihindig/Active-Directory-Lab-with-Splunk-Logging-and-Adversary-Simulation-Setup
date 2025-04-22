@@ -186,3 +186,8 @@ This lab serves as a foundational environment for future adversary emulation, de
 - [Atomic Red Team: Installation and Usage Guide](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam)
 
 ---
+
+As mentioned above,attack simulation couldn't be done due to insufficiencies as I have to keep all the machines opened to make the processes work,but you could definitely check out stuff related to simulating attacks using hacking tools and usage of ART along with MITRE ATTACK in my profile if interested!
+
+
+ 
