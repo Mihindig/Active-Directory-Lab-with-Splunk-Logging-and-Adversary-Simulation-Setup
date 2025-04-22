@@ -28,7 +28,7 @@ Each ISO was loaded into VirtualBox and configured with allocated system resourc
   ```bash
   sudo apt-get update && sudo apt-get upgrade -y
   ```
-- A **NAT Network** was created with the subnet `192.168.10.0/24` and named `ad-project`. All VMs were assigned static IPs within this range and connected to the network.
+- A **NAT Network** was created with the subnet `192.168.10.0/24` and named `AD project`. All VMs were assigned static IPs within this range and connected to the network.
 
 ---
 
@@ -168,3 +168,21 @@ This lab serves as a foundational environment for future adversary emulation, de
 
 ---
 
+
+
+---
+
+## **Resources**
+
+- [VirtualBox: Open Source Virtualization Platform](https://www.virtualbox.org/)  
+- [Windows 10 ISO: Microsoft Software Download](https://www.microsoft.com/en-us/software-download/windows10)  
+- [Kali Linux: Penetration Testing and Ethical Hacking Distribution](https://www.kali.org/)  
+- [Ubuntu: Linux for Developers and Enterprises](https://ubuntu.com/)  
+- [Windows Server 2022: Evaluation Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)  
+- [Splunk: Operational Intelligence and Security Platform](https://www.splunk.com/)  
+- [Microsoft Sysmon: Download and Documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)  
+- [Sysmon Modular: Advanced Configuration Repository](https://github.com/olafhartong/sysmon-modular)  
+- [MITRE ATT&CK Framework: Tactics and Techniques](https://attack.mitre.org/)  
+- [Atomic Red Team: Installation and Usage Guide](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam)
+
+---
