@@ -168,6 +168,24 @@ This lab serves as a foundational environment for future adversary emulation, de
 
 ---
 
+## **Screenshots**
+
+### VirtualBox Network Configuration & VM Overview
+
+![VirtualBox Network Configuration & VM Overview](https://github.com/caitwork/networktraffic/blob/main/MITRE%20ATT%26CK%20Summary%20-%20Execution%20and%20Techniques.png)
+
+- This screenshot showcases the Oracle VirtualBox Manager interface, displaying the status of virtual machines, including Kali Linux, Windows Server (ADDS), and Splunk. Additionally, it highlights the network settings for the **AD Project** environment, detailing the configured NAT network with the **192.168.10.0/24** subnet, DHCP server settings, and general host-only network parameters. This setup ensures proper communication between VMs within the simulated Active Directory lab.
+
+### Netplan Configuration for Splunk Server
+
+![Netplan Configuration for Splunk Server]
+
+- This screenshot displays the **GNU nano** text editor open with the **50-cloud-init.yaml** file, which contains the network configuration settings for the Ubuntu-based Splunk server. The configuration defines a static IP address (**192.168.10.10/24**) and sets Google’s public DNS (**8.8.8.8**) as the nameserver. Additionally, a default route (**192.168.10.1**) is specified for network traffic routing. This setup ensures stable network connectivity within the **Active Directory Lab environment** for centralized event logging.
+
+### Static IP Configuration for Windows Client
+
+- This screenshot captures the manual configuration of network settings in the **Internet Protocol Version 4 (TCP/IPv4) Properties** window on a Windows machine. The system has been assigned a **static IP address (192.168.10.100)** within the Active Directory lab network. The preferred DNS server is set to **8.8.8.8**, ensuring proper name resolution. The Command Prompt window in the background provides additional validation of IP configurations, confirming network connectivity settings for the domain-joined client. This step is essential for maintaining stability in the **CYBER.LOCAL** lab environment.
+
 
 
 ---
