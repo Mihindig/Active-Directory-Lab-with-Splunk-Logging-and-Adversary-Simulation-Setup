@@ -172,7 +172,7 @@ This lab serves as a foundational environment for future adversary emulation, de
 
 ### VirtualBox Network Configuration & VM Overview
 
-![VirtualBox Network Configuration & VM Overview](https://github.com/caitwork/networktraffic/blob/main/MITRE%20ATT%26CK%20Summary%20-%20Execution%20and%20Techniques.png)
+![VirtualBox Network Configuration & VM Overview]()
 
 - This screenshot showcases the Oracle VirtualBox Manager interface, displaying the status of virtual machines, including Kali Linux, Windows Server (ADDS), and Splunk. Additionally, it highlights the network settings for the **AD Project** environment, detailing the configured NAT network with the **192.168.10.0/24** subnet, DHCP server settings, and general host-only network parameters. This setup ensures proper communication between VMs within the simulated Active Directory lab.
 
